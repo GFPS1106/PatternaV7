@@ -1,0 +1,47 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Large raw microscopy formats usually not meant for GitHub
+*.lif
+*.czi
+*.nd2
+
+# Local output folders generated while testing
+Patterna_output*/
+MPQuant_output*/
+PatternaV7_test_for_repository*/
